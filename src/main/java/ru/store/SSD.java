@@ -1,7 +1,7 @@
 package ru.store;
 
 //Interface segregation principle
-//Раздение интерфейсов на маленькие, вместо одного общего
+//Разделение интерфейсов на маленькие, вместо одного общего
 public class SSD extends Product implements WorkPrinciple, Storage{
     //Single-Responsibility principle - только SSD
     private final String name = "SSD";

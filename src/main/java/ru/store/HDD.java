@@ -1,7 +1,7 @@
 package ru.store;
 
 //Interface segregation principle
-//Раздение интерфейсов на маленькие, вместо одного общего (большого)
+//Разделение интерфейсов на маленькие, вместо одного общего (большого)
 //Dependency inversion principle
 //Не зависеть от деталей реализации класса, а зависеть от абстрации
 //Можно выполнить Storage storage = new HDD(); или Storage storage = new SSD();

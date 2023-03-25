@@ -11,7 +11,7 @@ public class Main {
     public static void main(String[] args) {
         //В нашем магазине продаются сделающие товары
         //Liskov substitution principle
-        //наследуемые объекты класса ru.store.Product играют роль предка
+        //наследуемые объекты класса Product могут играть роль предка
         Product[] products = {
             new HDD(),
             new SSD(),
